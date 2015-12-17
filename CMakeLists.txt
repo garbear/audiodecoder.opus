@@ -12,6 +12,7 @@ find_package(Opus REQUIRED)
 find_package(OpusFile REQUIRED)
 
 include_directories(${KODI_INCLUDE_DIR}
+                    ${KODI_INCLUDE_DIR}/..
                     ${OGG_INCLUDE_DIRS}
                     ${OPUS_INCLUDE_DIRS}
                     ${OPUSFILE_INCLUDE_DIRS})
